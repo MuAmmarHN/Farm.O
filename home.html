@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Farm.O</title> 
+        <!-- Font --> 
+         <link rel="preconnect" href="https://fonts.googleapis.com"> 
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet"> 
+         <!-- CSS --> 
+          <link rel="stylesheet" href="style1.css"> 
+        </head> 
+        <body> 
+            <div class="container"> 
+                <!-- Sidebar --> 
+                 <div class="sidebar"> 
+                    <div class="header"> 
+                        <div class="list-item"> 
+                            <a href="#"> <img src="" class="icon" alt=""> 
+                                <span class="description-header">Farm.O</span> 
+                            </a> 
+                        </div> 
+                        <div class="illustration"> 
+                            <img src="asset/138manfarmer2_100718.png" alt=""> 
+                        </div> 
+                    </div> 
+                    <div class="main"> 
+                        <div class="list-item" onclick="showPage('dashboard')"> 
+                            <a href="#"> 
+                                <img src="asset/layout.png" class="icon" alt=""> 
+                                <span class="description">Dashboard</span> 
+                            </a> 
+                        </div> 
+                        <div class="list-item" onclick="showPage('produk')"> 
+                            <a href="#"> <img src="asset/accepted.png" class="icon" alt=""> 
+                                <span class="description">Produk</span> 
+                            </a> 
+                        </div> 
+                        <div class="list-item" onclick="showPage('adopt')"> 
+                            <a href="#"> 
+                                <img src="asset/leaves-of-a-plant.png" class="icon" alt=""> 
+                                <span class="description">Adopt</span> 
+                            </a> 
+                        </div> 
+                        <div class="list-item" onclick="showPage('cart')"> 
+                            <a href="#"> 
+                                <img src="asset/shopping-cart.png" class="icon" alt=""> 
+                                <span class="description">Cart</span> 
+                            </a> 
+                        </div> 
+                        <div class="list-item" onclick="showPage('history')"> 
+                            <a href="#"> 
+                                <img src="asset/history.png" class="icon" alt=""> 
+                                <span class="description">History</span> 
+                            </a> 
+                        </div> 
+                        <div class="list-item" onclick="showPage('setting')"> 
+                            <a href="#"> 
+                                <img src="asset/settings.png" class="icon" alt=""> 
+                                <span class="description">Setting</span> 
+                            </a> 
+                        </div> 
+                        <div class="list-item" onclick="showPage('logout')"> 
+                            <a href="#"> 
+                                <img src="asset/logout.png" class="icon" alt=""> 
+                                <span class="description">Logout</span> 
+                            </a> 
+                        </div> 
+                        </div>
+                     </div>
+    <!-- Main Content --> 
+    <div id="main-content" class="main-content"> 
+    <h1>Welcome to Farm.O</h1> 
+    <p>This is your dashboard where you can manage all your farming activities.</p> 
+    <div class="content-section"> 
+        <h2>Latest Updates</h2> 
+        <ul> 
+            <li>New products added to the inventory.</li> 
+            <li>Check out the latest farming tips.</li> 
+            <li>Upcoming events in your area.</li> 
+        </ul> 
+    </div> 
+    <div class="content-section"> 
+        <h2>Quick Links</h2> 
+        <ul> 
+            <li>
+                <a href="#">View Products</a>
+            </li> 
+            <li>
+                <a href="#">Check History</a>
+            </li> <li><a href="#">Settings</a>
+            </li> 
+        </ul> 
+    </div> 
+</div>
+         <script src="script.js"></script> 
+     </body> 
+</html> 

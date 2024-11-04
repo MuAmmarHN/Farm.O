@@ -125,7 +125,7 @@ function showPage(page) {
         localStorage.removeItem('user'); // Adjust this based on your actual storage key
     
         // Redirect to the login page
-        window.location.href = "login.html"; // Change to your actual login page URL
+        window.location.href = "index.html"; // Change to your actual login page URL
     }
         // Function to preview the uploaded image
         function previewImage(event) {
@@ -145,7 +145,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     if (email && password) { 
         // Redirect ke halaman dashboard
-        window.location.href = "index.html"; 
+        window.location.href = "home.html"; 
     } else {
         alert("Email atau password tidak boleh kosong.");
     }
