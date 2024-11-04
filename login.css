@@ -1,0 +1,43 @@
+/* CSS Tambahan */
+body {
+    background: url(asset/login.jpg);
+    background-size: cover;
+
+}
+
+.login-form, .register-form {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.5); /* Transparansi pada form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.login-form:hover, .register-form:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.login-form h3, .register-form h3 {
+    color: #333333;
+}
+
+.login-form .btn-primary, .register-form .btn-primary {
+    background-color: #00ffbf;
+    border: none;
+}
+
+.login-form .btn-primary:hover, .register-form .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Zoom Effect on Input Focus */
+.zoom-input {
+    transition: border-color 1s, transform 1s;
+    border: 1px solid #ced4da;
+}
+
+.zoom-input:focus {
+    border-color: #007bff;
+    transform: scale(1.05); /* Zoom in effect */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Shadow on focus */
+}
